@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className="heading_style" style={{ textAlign: "center" }}>{count}</h1>
+      <h1 className="heading_style">{count}</h1>
       <button onClick={incrementCount}>Click me!</button>
     </>
   );
